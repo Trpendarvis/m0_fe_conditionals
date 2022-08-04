@@ -22,25 +22,25 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
-
+console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
 // this should log: false
-
+console.log("Is numberTeachers strictly equal numberStudents?", numberTeachers === numberStudents);
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
-
+console.log("Is numberTeachers not equal numberStudents?", numberTeachers !== numberStudents);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
-
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
-
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
-
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 
 // #-------------------
 // PART 2: Articulating what you are doing
@@ -53,21 +53,21 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 console.log(4 < 9);
 // YOU DO: Explain.
-
+// This string is asking if 4 is less than 9 which is true.
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-
+// This is defining a variable called books as 3 and it is asking is 4 is less than 3 which is false
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-
+// This string is giving 2 variables and asking if one is greater than the other which is true there are more friends than siblings.
 var attendees = 9;
 var meals = 8;
 console.log(attendees != meals);
 // YOU DO: Explain.
-
+// This is defining 2 variables and asking that they are not the same which is true since one is equal to 8 and the other is 9.
 
 // #-------------------
 // PART 3: Logical Operators
@@ -78,9 +78,9 @@ var finishedHomework = false;
 
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
-console.log(isHungry && finishedHomework);
+console.log(isHungry && finishedHomework); False
 // Determine if the user is hungry or has completed their homework
-console.log(isHungry || finishedHomework);
+console.log(isHungry || finishedHomework); True
 
 var lovesToPlay = true;
 var lovesDogPark = false;
@@ -89,15 +89,16 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats); True
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark); False
 
 // Determine if the dog loves to play or loves the dog park
 
-
+console.log(lovesToPlay || lovesDogPark); True
 // Determine if the dog loves to play and is a puppy
-
+console.log(lovesToPlay && age); True
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+// My final answer was true becuase the dog did love to play as defined by var lovesToPlay = true; and var age = 1; which is still within puppy age.
