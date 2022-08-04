@@ -13,6 +13,16 @@ After completing your selected challenge(s), create a short video to share with 
 
 Write a JavaScript program that defines a variable that stores an Number. The program should print out the String "even" if the Number is even, and the String "odd" if the Number is odd.
 
+var number = (32)
+if (number % 2 === 0) {
+  console.log("This is Even")
+}
+else if (number % 2 === 1)[
+console.log("This is Odd")
+]
+
+
+
 ## Medium
 
 Write a JavaScript program that prints out a String or Number: The printed value will depend on the value of an Number. If the Number is a mulitple of 3, print "Fizz". If the Number is a multiple of 5, print "Buzz". If the Number is a multiple of both 3 and 5, print "FizzBuzz". If the Number is not a multiple of either, print the Number itself.
